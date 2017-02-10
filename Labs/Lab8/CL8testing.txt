@@ -1,0 +1,37 @@
+
+Average:
+Inputs: 1,2,3- expected output 2.
+void Test_Average()
+{
+    float test= Average(1,2,3);
+    cout<<test<<endl;
+}
+test output=4
+Average test failed, logic error due to Order of operations. Corrected to (a+b+c)/3.
+
+Max:
+Inputs: 1,2,3- expected output 3.
+void Test_Max()
+{
+    int test= Max(1,2,3);
+    cout<<test<<endl;
+}
+Max function did not consider all 3 parameters, corrected if statement and return statements.
+
+Factorial:
+Test input=5, expected output=120
+void Test_Factorial()
+{
+    int test= Factorial(5);
+    cout<<test<<endl;
+}
+Factorial function corrected to "i=n-1" and i>0 rather than >= to avoid multiplication by 0.
+
+FormatName:
+(Loving the shout-out to Monkey Island :-))
+void Test_FormatName()
+{
+    string test= FormatName("Guybrush","Threepwood");
+    cout<<test<<endl;
+}
+Expected output of "Threepwood,Guybrush" returned in test, no corrections made.
