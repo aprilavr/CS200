@@ -1,0 +1,1 @@
+HW Exercise Pointers
